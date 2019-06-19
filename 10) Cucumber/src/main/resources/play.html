@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <link rel="icon" href="P.png"> -->
+    <title>Hangman</title>
+</head>
+
+<body>
+
+    <img id="hangman" src="image0.png" width="300px" height="300px">
+    <h1 id="progress"></h1>
+
+    <form name="guess" onsubmit="return submitGuess()" method="post">
+        <input id="guessBox" placeholder="Enter guess" maxlength="1">
+        <input type="submit" hidden />
+    </form>
+
+    <h3 id="message"></h3>
+
+    <script src="PlayPage.js"></script>
+    <script src="setup.js"></script>
+</body>
+
+</html>
